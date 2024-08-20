@@ -9,7 +9,7 @@ import nltk
 
 # Load environment variables
 load_dotenv()
-
+nltk.download('punkt_tab')
 # Streamlit interface
 st.title("🌐 Pinecone Hybrid Search with Streamlit")
 st.subheader("Explore hybrid search across dense and sparse embeddings")
